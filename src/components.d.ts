@@ -6,6 +6,32 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface AdminBooking {
+    }
+    interface AdminComp {
+    }
+    interface AdminDoctors {
+    }
+    interface AdminFeedback {
+    }
+    interface AdminForm {
+    }
+    interface AdminHospital {
+    }
+    interface AdminNavbar {
+    }
+    interface AppointmentBooking {
+    }
+    interface FeedbackComponent {
+    }
+    interface HomePage {
+    }
+    interface HospitalFooter {
+    }
+    interface LandingPage {
+    }
+    interface LoginComp {
+    }
     interface MyComponent {
         /**
           * The first name
@@ -20,19 +46,154 @@ export namespace Components {
          */
         "middle": string;
     }
+    interface NavBar {
+    }
+    interface SummaryComp {
+    }
 }
 declare global {
+    interface HTMLAdminBookingElement extends Components.AdminBooking, HTMLStencilElement {
+    }
+    var HTMLAdminBookingElement: {
+        prototype: HTMLAdminBookingElement;
+        new (): HTMLAdminBookingElement;
+    };
+    interface HTMLAdminCompElement extends Components.AdminComp, HTMLStencilElement {
+    }
+    var HTMLAdminCompElement: {
+        prototype: HTMLAdminCompElement;
+        new (): HTMLAdminCompElement;
+    };
+    interface HTMLAdminDoctorsElement extends Components.AdminDoctors, HTMLStencilElement {
+    }
+    var HTMLAdminDoctorsElement: {
+        prototype: HTMLAdminDoctorsElement;
+        new (): HTMLAdminDoctorsElement;
+    };
+    interface HTMLAdminFeedbackElement extends Components.AdminFeedback, HTMLStencilElement {
+    }
+    var HTMLAdminFeedbackElement: {
+        prototype: HTMLAdminFeedbackElement;
+        new (): HTMLAdminFeedbackElement;
+    };
+    interface HTMLAdminFormElement extends Components.AdminForm, HTMLStencilElement {
+    }
+    var HTMLAdminFormElement: {
+        prototype: HTMLAdminFormElement;
+        new (): HTMLAdminFormElement;
+    };
+    interface HTMLAdminHospitalElement extends Components.AdminHospital, HTMLStencilElement {
+    }
+    var HTMLAdminHospitalElement: {
+        prototype: HTMLAdminHospitalElement;
+        new (): HTMLAdminHospitalElement;
+    };
+    interface HTMLAdminNavbarElement extends Components.AdminNavbar, HTMLStencilElement {
+    }
+    var HTMLAdminNavbarElement: {
+        prototype: HTMLAdminNavbarElement;
+        new (): HTMLAdminNavbarElement;
+    };
+    interface HTMLAppointmentBookingElement extends Components.AppointmentBooking, HTMLStencilElement {
+    }
+    var HTMLAppointmentBookingElement: {
+        prototype: HTMLAppointmentBookingElement;
+        new (): HTMLAppointmentBookingElement;
+    };
+    interface HTMLFeedbackComponentElement extends Components.FeedbackComponent, HTMLStencilElement {
+    }
+    var HTMLFeedbackComponentElement: {
+        prototype: HTMLFeedbackComponentElement;
+        new (): HTMLFeedbackComponentElement;
+    };
+    interface HTMLHomePageElement extends Components.HomePage, HTMLStencilElement {
+    }
+    var HTMLHomePageElement: {
+        prototype: HTMLHomePageElement;
+        new (): HTMLHomePageElement;
+    };
+    interface HTMLHospitalFooterElement extends Components.HospitalFooter, HTMLStencilElement {
+    }
+    var HTMLHospitalFooterElement: {
+        prototype: HTMLHospitalFooterElement;
+        new (): HTMLHospitalFooterElement;
+    };
+    interface HTMLLandingPageElement extends Components.LandingPage, HTMLStencilElement {
+    }
+    var HTMLLandingPageElement: {
+        prototype: HTMLLandingPageElement;
+        new (): HTMLLandingPageElement;
+    };
+    interface HTMLLoginCompElement extends Components.LoginComp, HTMLStencilElement {
+    }
+    var HTMLLoginCompElement: {
+        prototype: HTMLLoginCompElement;
+        new (): HTMLLoginCompElement;
+    };
     interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
     }
     var HTMLMyComponentElement: {
         prototype: HTMLMyComponentElement;
         new (): HTMLMyComponentElement;
     };
+    interface HTMLNavBarElement extends Components.NavBar, HTMLStencilElement {
+    }
+    var HTMLNavBarElement: {
+        prototype: HTMLNavBarElement;
+        new (): HTMLNavBarElement;
+    };
+    interface HTMLSummaryCompElement extends Components.SummaryComp, HTMLStencilElement {
+    }
+    var HTMLSummaryCompElement: {
+        prototype: HTMLSummaryCompElement;
+        new (): HTMLSummaryCompElement;
+    };
     interface HTMLElementTagNameMap {
+        "admin-booking": HTMLAdminBookingElement;
+        "admin-comp": HTMLAdminCompElement;
+        "admin-doctors": HTMLAdminDoctorsElement;
+        "admin-feedback": HTMLAdminFeedbackElement;
+        "admin-form": HTMLAdminFormElement;
+        "admin-hospital": HTMLAdminHospitalElement;
+        "admin-navbar": HTMLAdminNavbarElement;
+        "appointment-booking": HTMLAppointmentBookingElement;
+        "feedback-component": HTMLFeedbackComponentElement;
+        "home-page": HTMLHomePageElement;
+        "hospital-footer": HTMLHospitalFooterElement;
+        "landing-page": HTMLLandingPageElement;
+        "login-comp": HTMLLoginCompElement;
         "my-component": HTMLMyComponentElement;
+        "nav-bar": HTMLNavBarElement;
+        "summary-comp": HTMLSummaryCompElement;
     }
 }
 declare namespace LocalJSX {
+    interface AdminBooking {
+    }
+    interface AdminComp {
+    }
+    interface AdminDoctors {
+    }
+    interface AdminFeedback {
+    }
+    interface AdminForm {
+    }
+    interface AdminHospital {
+    }
+    interface AdminNavbar {
+    }
+    interface AppointmentBooking {
+    }
+    interface FeedbackComponent {
+    }
+    interface HomePage {
+    }
+    interface HospitalFooter {
+    }
+    interface LandingPage {
+    }
+    interface LoginComp {
+    }
     interface MyComponent {
         /**
           * The first name
@@ -47,15 +208,49 @@ declare namespace LocalJSX {
          */
         "middle"?: string;
     }
+    interface NavBar {
+    }
+    interface SummaryComp {
+    }
     interface IntrinsicElements {
+        "admin-booking": AdminBooking;
+        "admin-comp": AdminComp;
+        "admin-doctors": AdminDoctors;
+        "admin-feedback": AdminFeedback;
+        "admin-form": AdminForm;
+        "admin-hospital": AdminHospital;
+        "admin-navbar": AdminNavbar;
+        "appointment-booking": AppointmentBooking;
+        "feedback-component": FeedbackComponent;
+        "home-page": HomePage;
+        "hospital-footer": HospitalFooter;
+        "landing-page": LandingPage;
+        "login-comp": LoginComp;
         "my-component": MyComponent;
+        "nav-bar": NavBar;
+        "summary-comp": SummaryComp;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "admin-booking": LocalJSX.AdminBooking & JSXBase.HTMLAttributes<HTMLAdminBookingElement>;
+            "admin-comp": LocalJSX.AdminComp & JSXBase.HTMLAttributes<HTMLAdminCompElement>;
+            "admin-doctors": LocalJSX.AdminDoctors & JSXBase.HTMLAttributes<HTMLAdminDoctorsElement>;
+            "admin-feedback": LocalJSX.AdminFeedback & JSXBase.HTMLAttributes<HTMLAdminFeedbackElement>;
+            "admin-form": LocalJSX.AdminForm & JSXBase.HTMLAttributes<HTMLAdminFormElement>;
+            "admin-hospital": LocalJSX.AdminHospital & JSXBase.HTMLAttributes<HTMLAdminHospitalElement>;
+            "admin-navbar": LocalJSX.AdminNavbar & JSXBase.HTMLAttributes<HTMLAdminNavbarElement>;
+            "appointment-booking": LocalJSX.AppointmentBooking & JSXBase.HTMLAttributes<HTMLAppointmentBookingElement>;
+            "feedback-component": LocalJSX.FeedbackComponent & JSXBase.HTMLAttributes<HTMLFeedbackComponentElement>;
+            "home-page": LocalJSX.HomePage & JSXBase.HTMLAttributes<HTMLHomePageElement>;
+            "hospital-footer": LocalJSX.HospitalFooter & JSXBase.HTMLAttributes<HTMLHospitalFooterElement>;
+            "landing-page": LocalJSX.LandingPage & JSXBase.HTMLAttributes<HTMLLandingPageElement>;
+            "login-comp": LocalJSX.LoginComp & JSXBase.HTMLAttributes<HTMLLoginCompElement>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
+            "nav-bar": LocalJSX.NavBar & JSXBase.HTMLAttributes<HTMLNavBarElement>;
+            "summary-comp": LocalJSX.SummaryComp & JSXBase.HTMLAttributes<HTMLSummaryCompElement>;
         }
     }
 }

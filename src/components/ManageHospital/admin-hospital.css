@@ -1,0 +1,114 @@
+:host {
+  display: block;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: #f8f8f8;
+}
+
+thead th, tbody td {
+  padding: 10px;
+  text-align: left;
+}
+
+thead th {
+  text-transform: uppercase;
+}
+
+tbody tr {
+  transition: background-color 0.3s;
+}
+
+tbody tr:hover {
+  background-color: #f0f0f0;
+}
+
+input[type="text"] {
+  width: calc(100% - 16px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 0 4px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button.edit-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+button.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+button.save-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+button.cancel-btn {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.editBtn{
+  color: green;
+}
+
+.dltBtn{
+  color: red;
+}
+
+.saveBtn{
+  color: #28a745;
+}
+
+.addBtn{
+  background-color: #28a745;
+  color: white;
+  align-items: end;
+  margin-bottom: 20px;
+  margin-left:800px;
+}
+
+.addBtn:hover{
+  background-color: green;
+}
+
+.formAdd{
+  background-color: rgb(190, 245, 190);
+  margin-top: 10px;
+  color: black;
+}
+
+.formCancel{
+  background-color: #dc3545;
+  margin-top: 10px;
+  color: white;
+  margin-bottom: 10px;
+}
